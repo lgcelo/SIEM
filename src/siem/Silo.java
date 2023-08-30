@@ -10,18 +10,20 @@ import java.util.Date;
  *
  * @author gabo-
  */
+//Se crea la clase SILO
 public class Silo {
+    //Se define el tipo de visibilidad y el tipo de datos para los atributos: 
+    public int idSilo; //Atributo publico de tipo entero.
+    public Date fecha; //Atributo publico de tipo fecha.
+    public int cantidadKg; //Atributo publico de tipo entero.
+    public Date desgasificacion; //Atributo publico de tipo fecha.
+    public String nombreMolinero; //Atributo publico de tipo texto.
+    public String observaciones; //Atributo publico de tipo texto.
+    public Date horaInicio; //Atributo publico de tipo fecha.
+    public Date horaFinal; //Atributo publico de tipo fecha.
+    public int velocidadRotativa; //Atributo publico de tipo entero.
     
-    public int idSilo;
-    public Date fecha;
-    public int cantidadKg;
-    public Date desgasificacion;
-    public String nombreMolinero;
-    public String observaciones;
-    public Date horaInicio;
-    public Date horaFinal;
-    public int velocidadRotativa;
-
+    //Se crea el metodo constructor:
     public Silo(int idSilo, Date fecha, int cantidadKg, Date desgasificacion, String nombreMolinero, String observaciones, Date horaInicio, Date horaFinal, int velocidadRotativa) {
         this.idSilo = idSilo;
         this.fecha = fecha;
@@ -34,6 +36,7 @@ public class Silo {
         this.velocidadRotativa = velocidadRotativa;
     }
 
+    //Se crea los metodos setter and getter:
     public int getIdSilo() {
         return idSilo;
     }

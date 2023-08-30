@@ -8,18 +8,21 @@ package siem;
  *
  * @author gabo-
  */
-public class Aforo {
+//Se crea la calse Aforo:
+public class Aforo { 
+    //Se define el tipo de visibilidad y el tipo de datos para los atributos:
+    public int idAforo; //Atributo publico de tipo entero.
+    public int tiempoDeSiloLleno; //Atributo publico de tipo entero.
+    public int kgXmin; //Atributo publico de tipo entero.
     
-     public int idAforo;
-    public int tiempoDeSiloLleno;
-    public int kgXmin;
-
+//Se crea el metodo constructor:
     public Aforo(int idAforo, int tiempoDeSiloLleno, int kgXmin) {
         this.idAforo = idAforo;
         this.tiempoDeSiloLleno = tiempoDeSiloLleno;
         this.kgXmin = kgXmin;
     }
-
+    
+//Se crean los metodos getter and setter:
     public int getIdAforo() {
         return idAforo;
     }

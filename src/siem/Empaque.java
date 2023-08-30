@@ -10,18 +10,21 @@ import java.util.Date;
  *
  * @author gabo-
  */
+//Se crea la clase EMPAQUE:
 public class Empaque {
-    
-    public int idEmpaque;
-    public Date fecha;
-    public Date hora;
+    //Se define el tipo de visibilidad y el tipo de datos para los atributos:
+    public int idEmpaque; //Atributo publico de tipo entero.
+    public Date fecha; //Atributo publico de tipo fecha.
+    public Date hora; //Atributo publico de tipo fecha.
 
+    // Se crea el metodo constructor:
     public Empaque(int idEmpaque, Date fecha, Date hora) {
         this.idEmpaque = idEmpaque;
         this.fecha = fecha;
         this.hora = hora;
     }
-
+    
+    //Se crea los metodos getter and setter:
     public int getIdEmpaque() {
         return idEmpaque;
     }

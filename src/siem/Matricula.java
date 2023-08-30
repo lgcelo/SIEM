@@ -8,16 +8,19 @@ package siem;
  *
  * @author gabo-
  */
+//Se crea la clase MAQUINA:
 public class Matricula {
-    
-    public int idMatricula;
-    public String referencia;
+    //Se define el tipo de visibilidad y el tipo de datos para los atributos:
+    public int idMatricula; //Atributo publico de tipo entero.
+    public String referencia; //Atributo publico de tipo texto.
 
+    //Se crea el metodo constructor:
     public Matricula(int idMatricula, String referencia) {
         this.idMatricula = idMatricula;
         this.referencia = referencia;
     }
 
+    //Se crea los metodos setter and getter:
     public int getIdMatricula() {
         return idMatricula;
     }

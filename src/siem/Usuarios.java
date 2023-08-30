@@ -8,16 +8,20 @@ package siem;
  *
  * @author gabo-
  */
+//Se crea la clase USUARIOS:
 public class Usuarios {
     
-    public int idUsuario;
-    public String contrasenaUsuario;
+    //Se define el tipo de visibilidad y el tipo de datos para los atributos:
+    public int idUsuario; //Atributo publico de tipo entero.
+    public String contrasenaUsuario; //Atributo publico de tipo entero.
 
+    //Se crea el metodo constructor:
     public Usuarios(int idUsuario, String contrasenaUsuario) {
         this.idUsuario = idUsuario;
         this.contrasenaUsuario = contrasenaUsuario;
     }
-
+    
+    //Se crea los metodos getter and setter:
     public int getIdUsuario() {
         return idUsuario;
     }
