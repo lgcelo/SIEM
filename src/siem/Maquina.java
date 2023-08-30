@@ -8,7 +8,7 @@ package siem;
  *
  * @author gabo-
  */
-//Se crea la calse MAQUINA:
+//Se crea la clase MAQUINA:
 public class Maquina {
     
    //Se define el tipo de visibilidad y el tipo de datos para los atributos:  

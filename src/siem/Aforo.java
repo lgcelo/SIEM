@@ -8,7 +8,7 @@ package siem;
  *
  * @author gabo-
  */
-//Se crea la calse Aforo:
+//Se crea la clase Aforo:
 public class Aforo { 
     //Se define el tipo de visibilidad y el tipo de datos para los atributos:
     public int idAforo; //Atributo publico de tipo entero.

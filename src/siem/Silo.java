@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author gabo-
  */
-//Se crea la clase SILO
+//Se crea la clase SILO:
 public class Silo {
     //Se define el tipo de visibilidad y el tipo de datos para los atributos: 
     public int idSilo; //Atributo publico de tipo entero.
